@@ -7,7 +7,7 @@ const placesRoute = require('./routes/placesRoute');
 const app = express();
 app.use(express.json());
 
-const whiteList = ['http://127.0.0.1:5500', 'http://localhost:3000'];
+const whiteList = ['http://127.0.0.1:5500', 'http://localhost:3000', '*'];
 
 const corsOptions = {
   origin: (origin, callback) => {
