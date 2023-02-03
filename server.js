@@ -7,7 +7,7 @@ const placesRoute = require('./routes/placesRoute');
 const app = express();
 app.use(express.json());
 
-const whiteList = ['https://nedim-00.github.io'];
+const whiteList = ['https://nedim-00.github.io/'];
 
 const corsOptions = {
   origin: (origin, callback) => {
